@@ -1,0 +1,59 @@
+.sign {
+    right: 0.6%;
+    top: 1%;
+    position: fixed;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+}
+
+.heading1 {
+    font-family: 'Satisfy';
+    font-size: 50px;
+    color: blue;
+    margin: 0px;
+    position: relative;
+    left: 20px;
+    width: 50%;
+}
+
+.heading2 {
+    font-family: 'Marck Script';
+    font-size: 15px;
+    color: black;
+    position: relative;
+    left: 20px;
+    width: 50%;
+}
+
+.postButtons {
+    position: fixed;
+    left: 45%;
+    top: 50%;
+}
+
+.btna {
+    background-color: #f0c000;
+    color: black;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+@font-face {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Satisfy Regular'), local('Satisfy-Regular'), url(Satisfy-Regular.ttf) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Marck Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Marck Script'), local('MarckScript-Regular'), url(MarckScript-Regular.ttf) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
